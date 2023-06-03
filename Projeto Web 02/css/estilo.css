@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'letter';
+    src: url('fonts/fonte-style/bradley-hand-itc.ttf') format(truetype);
+}
+
+:root{
+    --cor1: #b24e94;
+    --cor2: #d862b5;
+    --cor3: #363346;
+    --cor4: #1a1922;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-attachment: fixed;
+}
+
+.header-class{
+    background-color: var(--cor3);
+    padding: 20px;
+}
+
+.h1-style-solo{
+    font-family: 'letter', monospace, sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-size: 5em;
+    color: white;
+}
+
+.header-class img{
+    margin: auto;
+    display: block;
+}
+
+.main-class{
+    padding: 30px;
+    background-color: #d862b5d7;
+    margin: auto;
+}
+
+.section-1{
+    padding: 40px;
+}
+
+.style-h1-all{
+    font-size: 2.5em;
+    font-family: 'letter', monospace, sans-serif;
+    color: #1a1822;
+}
+
+
+.all-style-p{
+    padding: 15px;
+    text-align: justify;
+    width: 50%;
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+
+.style-h2-all{
+    font-size: 2.5em;
+    font-family: 'letter', monospace, sans-serif;
+    color: #1a1822;
+}
+
+.asise-style-all{
+    padding: 40px;
+    min-width: 200px;
+    max-width: 1300px;
+}
+
+.p-aside-style-all{
+    width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Courier, monospace;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#style-h2-all-id{
+    font-size: 3em;
+}
+
+.footer-style{
+    background-color: #1a1822;
+    padding: 40px;
+}
+
+.footer-style-h2{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+
+.link-style-footer{
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.link-style-footer:hover{
+    text-decoration-line: underline;
+}
+
+.id-p-style{
+    color: white;
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+}

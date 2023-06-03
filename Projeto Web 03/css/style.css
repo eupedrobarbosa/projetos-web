@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: left;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 4.5em;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 50px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.329);
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.281);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    padding: 30px;
+    margin-right: 20px;
+    margin-left: -20px;
+}
+
+nav a:hover{
+    transition-duration: 1s;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-top-right-radius: 30px;
+}
+
+.main-style{
+    width: 95%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.466);
+    border: 2px black solid;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.445);
+}
+
+.main-style h1{
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: lighter;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.main-style p{
+    padding: 25px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-indent: 30px;
+}
+
+.section-redes-sociais{
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-redes-sociais h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.section-redes-sociais img{
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.section-redes-sociais img:hover{
+    opacity: 0.8;
+    transition-duration: 1s;
+}
+
+.section-projects h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.section-projects{
+    background-color: rgba(241, 241, 241, 0.74);
+}
+
+.section-projects h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.section-projects img{
+    padding: 30px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.footer-style{
+    margin-top: 60px;
+    background-color: black;
+    padding: 80px;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459);
+}
+
+.footer-style p{
+    font-size: 1.4em;
+}

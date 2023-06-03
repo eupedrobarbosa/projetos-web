@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "impacted";
+  src: url(fonts/impacted/Impacted2.0.ttf) format(truetype);
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "osvald";
+  src: url('fonts/Oswald/Oswald-VariableFont_wght.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'idroid';
+  src: url('../../html/pacote-projeto-d010/fontes/idroid.otf')format(opentype);
+}
+
+@font-face {
+  font-family: 'script';
+  src: url('../fonts/bertha_script/Bertha.otf') format(opentype);
+}
+
+@font-face {
+  font-family: 'richard';
+  src: url('../fonts/Richard\ Samuels.otf');
+}
+
+:root{
+  --cor1: #E6BD8C;
+  --cor2: #d6af7f;
+  --cor3: #b9986f;
+  --cor4: #947a5a;
+  --cor5: #775d3c;
+  --cor6: #5a472d;
+  --cor7: #201a11;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.header{
+  padding: 60px;
+  width: 80%;
+  margin: auto;
+}
+
+.header h1{
+  font-family: 'richard', Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 3.2em;
+  text-align: left;
+  color: #0f0c08;
+}
+
+.navbar-all-pages{
+  width: 80%;
+  padding: 20px;
+  background-color: #362b1b;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: auto;
+}
+
+.navbar-all-pages a{
+  padding: 20px;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  border-radius: 20px;
+}
+
+.navbar-all-pages a:hover{
+  transition-duration: 0.7s;
+  background-color: #745c3b80;
+}
+
+.main-home-1{
+  background-color: rgba(224, 224, 224, 0.377);
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.section-home-1{
+  padding: 15px;
+}
+
+.main-section-home-h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0c08;
+  font-size: 2.5em;
+}
+
+.main-section-home-p{
+  font-style: normal;
+  font-size: 1.2em;
+  margin-top: 10px;
+  text-align: justify;
+  text-indent: 30px;
+  color: #0f0c08;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+/*
+SECTION 02
+*/
+
+.main-section-home-h2{
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0c08;
+  font-size: 1.7em;
+}
+
+.img-section-style{
+  width: 100%;
+}
+
+.footer-all-pages{
+  background-color: black;
+  padding: 40px;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.footer-all-pages h2{
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  font-style: normal;
+}
