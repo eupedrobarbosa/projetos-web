@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #94fc90fa;
+    --cor1: #87E684;
+    --cor2: #4F994D;
+    --cor3: #448142;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+    background-attachment: fixed;
+}
+
+.navbar{
+    padding: 25px;
+    border-bottom: 1px solid var(--cor3);
+    background-color: #44814257;
+}
+
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.3em;
+    color: #162915;
+}
