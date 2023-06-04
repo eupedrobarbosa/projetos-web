@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #94fc90fa;
+    --cor1: #87E684;
+    --cor2: #4F994D;
+    --cor3: #448142;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(black);
+    background-attachment: fixed;
+}
