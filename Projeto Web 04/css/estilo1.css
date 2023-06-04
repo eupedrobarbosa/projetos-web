@@ -38,14 +38,3 @@ body{
     border-radius: 10px;
 }
 
-.effect > .effect-home-test{
-    display: none;
-}
-
-.effect:hover > .effect-home-test{
-    display: block;
-}
-
-.effect-home-test{
-    width: 10%;
-}
