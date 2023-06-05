@@ -1,2 +1,2 @@
 # projetos-web
-Projetos Front-End - Gustavo Guanabara
+Projetos Front-End - estudando com Gustavo Guanabara
