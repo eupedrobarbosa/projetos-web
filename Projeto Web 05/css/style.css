@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "ChakraPetch-bold";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-italic";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Italic.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-light";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Light.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-medium";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Medium.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-regular";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf) format(truetype);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-attachment: fixed;
+}
+
+.header-home-style{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.header-home-style h1{
+    font-size: 4.5em;
+    font-family: 'ChakraPetch-medium';
+    text-transform: uppercase;
+}
+
+.header-home-style p{
+    text-align: center;
+    width: 40%;
+    font-family: 'ChakraPetch-light';
+    font-size: 1.1em;
+}
+
+.nav-home-style{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.nav-home-style a{
+    padding: 5px;
+    margin-right: 40px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family:'ChakraPetch-medium';
+    font-size: 1.3em;
+    color: black;
+}
+
+.nav-home-style a:hover{
+    border-bottom: 2px solid black;
+}
