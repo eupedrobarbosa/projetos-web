@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('images/forest.jpg');
+}
+
+.header{
+    border: 1px solid white;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.div-style{
+    border: 1px solid white;
+    padding: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+#di1{
+    background-color: antiquewhite;
+}
+
+#di2{
+    background-image: linear-gradient(red, rgb(56, 13, 56));
+}
+
+#di3{
+    background-image: url('images/wallpaper002.jpg');
+}
