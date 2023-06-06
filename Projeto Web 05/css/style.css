@@ -33,7 +33,6 @@ body{
 .header-home-style{
     width: 90%;
     margin: auto;
-    border: 1px solid black;
     padding: 20px;
     margin-top: 15px;
 }
@@ -42,6 +41,7 @@ body{
     font-size: 4.5em;
     font-family: 'ChakraPetch-medium';
     text-transform: uppercase;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.233);
 }
 
 .header-home-style p{
@@ -54,7 +54,6 @@ body{
 .nav-home-style{
     width: 90%;
     margin: auto;
-    border: 1px solid black;
     padding: 20px;
     margin-top: 20px;
     text-align: left;
@@ -62,14 +61,165 @@ body{
 
 .nav-home-style a{
     padding: 5px;
-    margin-right: 40px;
+    margin-right: 25px;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family:'ChakraPetch-medium';
     font-size: 1.3em;
     color: black;
 }
 
 .nav-home-style a:hover{
-    border-bottom: 2px solid black;
+    margin-left: 4px;
+    transition-duration: 1s;
+}
+
+.main-home-style{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.section-home-style{
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-home-style h1{
+    font-size: 2.5em;
+    font-family: 'ChakraPetch-regular';
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.288);
+}
+
+.aside-home-style{
+    width: 98%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.aside-home-style p{
+    font-family: 'ChakraPetch-medium';
+    font-size: 1.3em;
+    text-indent: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.aside-home-style p > a{
+    text-decoration: none;
+    color: rgb(67, 22, 109);
+}
+
+.section-home-style-2{
+    width: 95%;
+    margin: auto;
+
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.section-home-style-2 h1{
+    font-size: 2.5em;
+    font-family: 'ChakraPetch-regular';
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.288);
+}
+
+.Front-End-name{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+}
+
+/*
+.Front-End-name:hover{
+    transition-duration: 1s;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.Front-End-name:hover > #color{
+    transition-duration: 1s;
+    color: rgba(0, 0, 0, 0.836);
+}*/
+
+#color{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.445);
+}
+
+.ul-style-aside > li{
+    font-size: 2.5em;
+    font-family: 'ChakraPetch-medium';
+}
+
+.span-image{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.span-image:hover{
+    transition-duration: 0.5s;
+    opacity: 0.8;
+    margin-left: 20px;
+    border-bottom: 5px black solid;
+}
+
+
+.section-home-style-3{
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.section-home-style-3 h1{
+    font-size: 2.5em;
+    font-family: 'ChakraPetch-regular';
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+}
+
+.footer-home-style{
+    margin-top: 30px;
+    background-color: black;
+
+}
+
+.div-direitos{
+    width: 45%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.div-direitos h2{
+    color: white;
+    font-family: 'ChakraPetch-regular';
+    font-weight: lighter;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.div-mastercard{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+#png-mastercard{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+#png-mastercard:hover{
+    opacity: 0.6;
+    transition-duration: 2s;
+
 }
