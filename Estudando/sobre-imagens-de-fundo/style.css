@@ -10,33 +10,13 @@ body{
 }
 
 .header{
-    width: 70%;
-    border: 3px solid white;
-    margin: auto;
-    margin-top: 60px;
-    height: 500px;
-    background-image: url('images/wallpaper002.jpg');
-    text-align: center;
-    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.418);
-}
-
-.div-style{
     border: 1px solid rgb(255, 255, 255);
-    width: 180px;
-    height: 150px;
-    display: inline-block;
-    margin-top: 30px;
-    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.479);
-}
-
-#div-img-1{
-    background-image: url('images/wallpaper001.jpg');
-}
-
-#div-img-2{
-    background-image: url('images/wallpaper005.jpg');
-}
-
-#div-img-3{
-    background-image: url('images/wallpaper004.jpg');
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.39);
+    background-image: url('images/pattern002.png');
+    background-repeat: no-repeat;
+    background-position:center center;
 }
