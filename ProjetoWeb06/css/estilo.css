@@ -1,27 +1,27 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Passion-black';
+    src: url('fonts/Passion_One/PassionOne-Black.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Passion-bold';
+    src: url('fonts/Passion_One/PassionOne-Bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Passion-regular';
+    src: url('fonts/Passion_One/PassionOne-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Siricha';
+    src: url('fonts/Sriracha/Sriracha-Regular.ttf') format(truetype);
+}   
+
 *{
     padding: 0;
     margin: 0;
 }
 
-@font-face {
-    font-family: "ChakraPetch-bold";
-    src: url(fonts/Chakra_Petch/ChakraPetch-Bold.ttf) format(truetype);
-}
-@font-face {
-    font-family: "ChakraPetch-italic";
-    src: url(fonts/Chakra_Petch/ChakraPetch-Italic.ttf) format(truetype);
-}
-@font-face {
-    font-family: "ChakraPetch-light";
-    src: url(fonts/Chakra_Petch/ChakraPetch-Light.ttf) format(truetype);
-}
-@font-face {
-    font-family: "ChakraPetch-medium";
-    src: url(fonts/Chakra_Petch/ChakraPetch-Medium.ttf) format(truetype);
-}
-@font-face {
-    font-family: "ChakraPetch-regular";
-    src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf) format(truetype);
-}
