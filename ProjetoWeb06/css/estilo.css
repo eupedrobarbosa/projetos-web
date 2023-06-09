@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ChakraPetch-bold";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-italic";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Italic.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-light";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Light.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-medium";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Medium.ttf) format(truetype);
+}
+@font-face {
+    font-family: "ChakraPetch-regular";
+    src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf) format(truetype);
+}
