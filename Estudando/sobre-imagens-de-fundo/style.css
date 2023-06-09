@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-* {
-  padding: 0;
-  margin: 0;
+*{
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -18,20 +18,13 @@ body {
   margin-top: 100px;
   text-align: center;
   box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.438);
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 0, 0, 0.212),
-    rgba(0, 0, 0, 0.205)
-  );
 }
 
 .header:hover {
-  box-shadow: 1px 1px 10px rgba(155, 7, 7, 0.582);
-  background-image: linear-gradient(
-    to left,
-    rgba(255, 0, 0, 0.212),
-    rgba(0, 0, 0, 0.205)
-  );
+  box-shadow: 1px 1px 10px rgba(155, 7, 7, 0.979);
+  border-radius: 20px;
+  transition-duration: 0.5s;
+
 }
 
 .div-style {
@@ -48,12 +41,14 @@ body {
   padding: 10px;
   border: 1px solid #45068b7c;
   transition-duration: 0.4s;
+  border-radius: 20px;
 }
 
 #div1 {
   background-image: url("images/pattern001.png");
   background-repeat: no-repeat;
   background-position: center center;
+  
 }
 #div2 {
   background-image: url("images/pattern002.png");
@@ -64,4 +59,17 @@ body {
   background-image: url("images/pattern003.png");
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#div1:hover{
+    background-position: center left;
+    transition-duration: 1s;
+}
+#div2:hover{
+    background-position: center right;
+    transition-duration: 1s;
+}
+#div3:hover{
+    background-position: top center;
+    transition-duration: 1s;
 }
