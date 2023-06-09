@@ -14,12 +14,13 @@ body {
 .header {
   border: 1px solid red;
   width: 80%;
-  max-width: 900px;
-  height: auto;
-  margin: auto;
+  max-width: 700px;
+  height: 700px;
   margin-top: 100px;
   text-align: center;
   box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.438);
+  position: relative;
+  margin: auto;
 }
 
 .header:hover {
@@ -36,6 +37,10 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: 1px 1px 10px #1e033d8c;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .div-style:hover {
@@ -49,28 +54,12 @@ body {
   background-image: url("images/pattern001.png");
   background-repeat: no-repeat;
   background-position: center center;
-  
-}
-#div2 {
-  background-image: url("images/pattern002.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-#div3 {
-  background-image: url("images/pattern003.png");
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #div1:hover{
-    background-position: center left;
-    transition-duration: 1s;
+  background-position: center left;
+  transition-duration: 1s;
 }
-#div2:hover{
-    background-position: center right;
-    transition-duration: 1s;
-}
-#div3:hover{
-    background-position: top center;
-    transition-duration: 1s;
-}
+
+
+
