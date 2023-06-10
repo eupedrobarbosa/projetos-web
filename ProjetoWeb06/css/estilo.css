@@ -34,14 +34,14 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Passion-bold', cursive;
 }
 
 header > h1{
     padding-top: 50px;
-    font-variant: small-caps;
-    font-family: 'Passion-bold';
     font-size: 5em;
-
+    font-family: 'Passion-bold', cursive;
+    font-variant: small-caps;
 }
 
 header > p{
@@ -51,7 +51,7 @@ header > p{
 header a, footer a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header a:hover, footer a:hover{
@@ -61,15 +61,14 @@ header a:hover, footer a:hover{
 section{
     padding-top: 20vh;
     padding-bottom: 20vh;
-    line-height: 2em;
-    padding-left: 30px;
-    font-family: 'Siricha';
-    font-weight: bold;
+    padding: 50px;
+    font-family: 'Siricha', cursive;
+    font-weight: bolder;
     font-size: 1.5em;
 }
 
-section > p {
-    padding-bottom: 30px;
+section > p{
+    padding-bottom: 50px;
 }
 
 section.normal{
@@ -78,32 +77,30 @@ section.normal{
 }
 
 section.image{
-    background-color: rgb(53, 53, 53);
-    color: white;
+    background-color: rgb(134, 134, 134);
+    color: black;
+    background-position: right center;
+    background-size: cover;
     background-attachment: fixed;
-}
-
-section.image > p {
-    width: 400px;
-    background-color: rgba(95, 95, 95, 0.274);
 }
 
 section#img01{
     background-image: url('../imagens/background001.jpg');
-    background-position: right center;
-    background-size: cover;
 }
 
 section#img02{
     background-image: url('../imagens/background002.jpg');
-    background-position: right center;
-    background-size: cover;
+}
+
+section.image > p{
+    width: auto;
+    background-color: rgba(65, 64, 64, 0.301);
 }
 
 footer{
     background-color: black;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 30px;
 }
 
