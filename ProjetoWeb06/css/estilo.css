@@ -93,7 +93,7 @@ section#img02{
 }
 
 section.image > p{
-    width: auto;
+    max-width: 400px;
     background-color: rgba(65, 64, 64, 0.301);
 }
 
