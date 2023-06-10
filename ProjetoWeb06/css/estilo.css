@@ -39,6 +39,9 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: 'Passion-bold';
+    font-size: 5em;
+
 }
 
 header > p{
@@ -60,6 +63,13 @@ section{
     padding-bottom: 20vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Siricha';
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section > p {
+    padding-bottom: 30px;
 }
 
 section.normal{
@@ -70,11 +80,24 @@ section.normal{
 section.image{
     background-color: rgb(53, 53, 53);
     color: white;
+    background-attachment: fixed;
 }
 
 section.image > p {
     width: 400px;
-    background-color: rgb(95, 95, 95);
+    background-color: rgba(95, 95, 95, 0.274);
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer{
