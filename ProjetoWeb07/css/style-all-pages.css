@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color0: #551b19;
+    --color1:  #A8332F;
+    --color2:  #F57A76;
+
+    --fontpetch: 'Chakra Petch', sans-serif;
+}
+
+body{
+    background-color: #f57a762c;
+}
+
+
+nav{
+    padding: 30px;
+    background-image: linear-gradient(to bottom, var(--color2), var(--color1));
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
+}
+
+nav > a{
+    text-decoration: none;
+    color: var(--color0);
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-family: var(--fontpetch);
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+nav > a:hover{
+    border-bottom: 2px solid var(--color0);
+    margin-left: 10px;
+    transition-duration: 0.7s;
+}
+
+header{
+    color: var(--color1);
+}
+
+header > h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 4em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+header > p{
+    font-size: 1.5em;
+    font-family: var(--fontpetch);
+    font-weight: lighter;
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: var(--color2);
+}
+
+header > p > a:hover{
+    text-decoration-line: underline;
+}
+
+div.image{
+    background-image: url('../images/flores.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    background-attachment: fixed;
+    margin-top: 30px;
+}
+
+div.image:hover{
+    background-position: bottom left;
+    transition-duration: 1s;
+}
