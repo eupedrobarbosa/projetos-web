@@ -8,52 +8,65 @@
 }
 
 :root {
+    --cor1: rgb(27, 72, 139);
+    --cor2: rgb(20, 52, 100);
   --fontpetch: "Chakra Petch", sans-serif;
 }
 
-html,
-body{
-    background-image: url('../images/white.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-nav{
-    padding: 30px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.26);
-    background-color: white;
-}
-
-nav a{
-    padding: 5px;
-    margin-left: 45px;
-    font-size: 1.3em;
-    color: rgba(0, 0, 0, 0.705);
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-weight: lighter;
-}
-
-nav a:hover{
-    color: black;
-    transition-duration: 0.6s;
+.box-shadow{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 header{
-    margin-top: 40px;
+    background-color: rgb(27, 72, 139);
+    color: white;
     font-family: var(--fontpetch);
-    padding: 20px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.349);
+    font-variant: small-caps;
+    padding: 40px;
     text-align: center;
 }
 
 header h1{
     font-weight: lighter;
-    font-size: 4em;
+    font-size: 5em;
+    padding-top: 20px;
+}
+
+.style-p-efect:hover{
+    transition-duration: 1s;
+    margin-right: 5px;
+    font-size: 1.5em;
 }
 
 header p{
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav{
+    padding: 25px;
+    background-color: rgb(20, 52, 100);
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left:  20px;
+    font-family: var(--fontpetch);
     font-size: 1.3em;
 }
+
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+.font-size-efect:hover{
+    font-size: 1.1em;
+    transition-duration: 0.6s;
+}
+
