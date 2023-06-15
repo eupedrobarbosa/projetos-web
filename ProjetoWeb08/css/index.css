@@ -85,10 +85,75 @@ ol{
     font-family: var(--fontpetch);
     font-size: 1.6em;
     padding: 30px;
-    line-height: 40px;
+    line-height: 45px;
 }
 
 ul{
     padding: 10px;
 }
 
+.dentro-de-listas{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.image{
+    margin-top: 10px;
+    background-image: url('../images/rotina-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 70vh;
+    background-attachment: fixed;
+}
+
+#h1-style-text-helloworld{
+    font-family: var(--fontpetch);
+    font-size: 5em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#border-bottom-title{
+    border-bottom: 3px solid black;
+}
+
+.p-style-normal{
+    margin-top: 40px;
+    padding: 20px;
+    font-family: var(--fontpetch);
+    text-indent: 50px;
+    line-height: 40px;
+    font-size: 1.7em;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+footer > p {
+    font-size: 1.3em;
+    font-family: var(--fontpetch);
+    text-align: center;
+    padding: 20px;
+
+}
+
+#footer-pedro-style{
+    text-decoration: none;
+    color: rgb(189, 186, 186);
+}
+
+#footer-pedro-style:hover{
+    text-decoration-line: underline;
+}
+
+#footer-pedro-style:visited{
+    color: wheat;
+}
