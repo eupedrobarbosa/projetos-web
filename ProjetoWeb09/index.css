@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Regular';
+    src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'light';
+    src: url(fonts/Chakra_Petch/ChakraPetch-Light.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(fonts/Chakra_Petch/ChakraPetch-Medium.ttf) format(truetype);
+}
+
+:root{
+    --cor1: #ca3f08;
+    --cor2: #a53407;
+    --cor3: #9c3106;
+    --cor4: #852905;
+    --cor5: #662004;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.container-box-shadow{
+    box-shadow: 1px 1px 10px var(--cor1);
+}
+
+header{
+    background-color: var(--cor1);
+    text-align: center;
+    color: white;
+    font-family: 'Regular';
+    font-weight: lighter;
+    font-style: normal;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+header h1{
+    font-size: 5em;
+    font-variant: small-caps;
+}
+
+.efect-hover-padding:hover{
+    transition-duration: 1.3s;
+    border-bottom: 5px solid white;
+}
+
+nav{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+nav:hover{
+    background-color: var(--cor1);
+    transition-duration: 1s;
+}
+
+nav a{
+    color: var(--cor5);
+    font-size: 1.4em;
+    font-family: 'medium';
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: var(--cor3);
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+
+.border-efect-nav-a:hover{
+    border-bottom: 1px solid white;
+}
+
+.image-all-fixed{
+    background-attachment: fixed;
+}
+
+#image-laranja{
+    background-image: url('images/laranja_home.webp');
+    background-position: center center;
+    background-size: cover;
+}
+
+#image-laranja:hover{
+    background-position: center bottom;
+    transition-duration: 2s;
+}
+
+.p-style-for-image{
+    background-color: var(--cor4);
+    max-width: 600px;
+    opacity: 0.6;
+    padding: 50px;
+}
+
+.p-style-for-image:hover{
+    opacity: 0.8;
+    transition-duration: 1s;
+    border-radius: 30px;
+}
+
+.p-style-div{
+    color: white;
+    font-family: 'Regular';
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+main{
+    background-color: var(--cor3);
+}
+
+.normal{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'medium';
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.425);
+}
+
+.normal > h1{
+    font-size: 4em;
+}
+
+article.padding-text-Orage-Fruit-or-color{
+    padding: 50px;
+    text-align: center;
+}
+
+article.padding-text-Orage-Fruit-or-color{
+    font-size: 1.3em;
+
+}
+
+#image-laranja2{
+    background-image: url('images/laranja_home.webp');
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+#image-laranja2:hover{
+    background-position: center top;
+    transition-duration: 2s;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Regular';
+    font-weight: lighter;
+    background-color: #662004;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
