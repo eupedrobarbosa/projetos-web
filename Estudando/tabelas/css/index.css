@@ -5,3 +5,48 @@
     margin: 0;
 }
 
+header{
+    background-color: rgb(160, 87, 160);
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    font-weight: lighter;
+    font-size: 3.65em;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section{
+    background-color: rgba(163, 87, 163, 0.603);
+    padding: 40px;
+}
+
+table{
+    border-radius: 20px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+td:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.7s;
+}
+
+.number-real:hover{
+    color: gold;
+}
