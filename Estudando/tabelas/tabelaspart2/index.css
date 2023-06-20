@@ -5,3 +5,81 @@
     margin: 0;
 }
 
+.container{
+    height: 600px;
+    background-color: rgb(190, 192, 191);
+    position: relative;
+}
+
+table{
+    padding: 20px;
+    border-collapse: collapse;
+    background-color: rgba(128, 128, 128, 0.233);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#a1{
+    background-color: red;
+}
+#a2{
+    background-color: rgb(204, 4, 4);
+}
+#a3{
+    background-color: rgb(175, 3, 3);
+}
+#a4{
+    background-color: rgb(151, 2, 2);
+}
+#a5{
+    background-color: rgb(121, 2, 2);
+}
+#a6{
+    background-color: rgb(100, 2, 2);
+}
+#a7{
+    background-color: rgb(66, 1, 1);
+}
+
+#a1:hover{
+    background-color: rgb(66, 1, 1);
+    transition-duration: 0.3s;
+    color: white;
+}
+#a2:hover{
+    background-color: rgb(100, 2, 2);
+    transition-duration: 0.3s;
+    color: white;
+}
+#a3:hover{
+    background-color: rgb(121, 2, 2);
+    transition-duration: 0.3s;
+    color: white;
+}
+#a4:hover{
+    background-color: rgb(151, 2, 2);
+    transition-duration: 0.3s;
+    color: white;
+}
+#a5:hover{
+    background-color: rgb(175, 3, 3);
+    transition-duration: 0.3s;
+    color: white;
+}
+#a6:hover{
+    background-color: rgb(204, 4, 4);
+    transition-duration: 0.3s;
+    color: white;
+}
+#a7:hover{
+    background-color: red;
+    transition-duration: 0.3s;
+    color: white;
+}
