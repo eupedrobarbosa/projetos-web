@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+div{
+    height: 760px;
+    position: relative;
+}
+
+table{
+    padding: 10px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+}
+
+td{
+    border: 2px solid black;
+    padding: 60px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 3em;
+    text-shadow: 1px 1px 5px rgba(10, 38, 199, 0.527);
+}
