@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Regular';
+    src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(fonts/Chakra_Petch/ChakraPetch-Medium.ttf) format(truetype);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.7em;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-variant: small-caps;
+}
+
+nav > a:hover{
+    font-size: 2.4em;
+    transition-duration: 1s;
+}
+
+.border-bottom-hr{
+    margin-top: 20px;
+    background-color: rgba(151, 73, 224, 0.281);
+    height: 1px;
+}
+
+header{
+    padding: 26vh 20vh;
+    background-image: linear-gradient(-40deg, white 90%, blueviolet 90%);
+}
+
+header > h1{
+    color: blueviolet;
+    font-size: 6em;
+    font-family: 'Regular';
+}
+
+
