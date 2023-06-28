@@ -41,7 +41,7 @@ nav > a:hover{
 }
 
 header{
-    padding: 26vh 20vh;
+    padding: 10vh 20vh;
     background-image: linear-gradient(-40deg, white 90%, blueviolet 90%);
 }
 
@@ -51,4 +51,24 @@ header > h1{
     font-family: 'Regular';
 }
 
+#border-bottom-hr-id{
+    background-color: rgba(151, 73, 224, 0.767);
+}
 
+.section-1{
+    padding: 50px;
+    height: auto;
+    background-image: linear-gradient(-125deg, white 90%, blueviolet 90%);
+    margin-top: 5px;
+    height: 500px;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 30px;
+}
