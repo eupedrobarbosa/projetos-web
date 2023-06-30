@@ -7,57 +7,67 @@
     <style>
         
         table{
+            padding: 10PX;
             border-collapse: collapse;
-            font-family: 'Courier New', Courier, monospace;
-            
+            width: 500px;
         }
 
-        td, th{
-            border: 1px solid black;
+        th, td{
             padding: 10px;
-            width: 200px;
+            border: 1px solid rgb(0, 0, 0);
         }
 
         thead{
-            background-color: rgba(128, 128, 128, 0.568);
-            color: white;
+            background-color: rgba(62, 121, 230, 0.699);
+            color: rgb(255, 255, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .raking-align{
+            text-align: center;
+            width: 0;
+        }
+
+        .pais-align{
+            text-align: center;
         }
 
         .text-align-right{
             text-align: right;
+            width: 200px;
         }
-
     </style>
 </head>
 <body>
 
     <table>
         <thead>
-            <th>Estado</th>
+            <th>Raking</th>
+            <th>País</th>
             <th>População</th>
         </thead>
-        
         <tbody>
             <tr>
-                <td>São Paulo</td>
-                <td class="text-align-right">3000000</td>
+                <td class="raking-align">1.</td>
+                <td class="pais-align">China</td>
+                <td class="text-align-right">100000000000</td>
             </tr>
             <tr>
-                <td>Rio de Janeiro</td>
-                <td class="text-align-right">2000099</td>
+                <td class="raking-align">2.</td>
+                <td class="pais-align">India</td>
+                <td class="text-align-right">10000000000</td>
             </tr>
             <tr>
-                <td>Curitiba</td>
-                <td class="text-align-right">1000420</td>
+                <td class="raking-align">3.</td>
+                <td class="pais-align">Russia</td>
+                <td class="text-align-right">1300000000</td>
+            </tr>
+            <tr>
+                <td class="raking-align">4.</td>
+                <td class="pais-align" id="brasil-BR">Brasil</td>
+                <td class="text-align-right">200000000</td>
             </tr>
         </tbody>
-
-        <tfoot>
-            <tr>
-                <td >Total</td>
-                <td class="text-align-right">2222222222</td>
-            </tr>
-        </tfoot>
     </table>
     
 </body>
