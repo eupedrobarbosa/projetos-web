@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables part 06</title>
+    <style>
+        
+        table{
+            border-collapse: collapse;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            width: 200px;
+        }
+
+        thead{
+            background-color: rgba(128, 128, 128, 0.568);
+            color: white;
+        }
+
+        .text-align-right{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="text-align-right">3000000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="text-align-right">2000099</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="text-align-right">1000420</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td >Total</td>
+                <td class="text-align-right">2222222222</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
