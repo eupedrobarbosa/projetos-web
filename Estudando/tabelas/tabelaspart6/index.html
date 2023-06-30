@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables part 06</title>
     <style>
-        
+
+        section{
+            position: relative;
+            height: 766px;
+        }   
+
+
         table{
             padding: 10PX;
             border-collapse: collapse;
             width: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         th, td{
@@ -40,35 +50,37 @@
 </head>
 <body>
 
-    <table>
-        <thead>
-            <th>Raking</th>
-            <th>País</th>
-            <th>População</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="raking-align">1.</td>
-                <td class="pais-align">China</td>
-                <td class="text-align-right">100000000000</td>
-            </tr>
-            <tr>
-                <td class="raking-align">2.</td>
-                <td class="pais-align">India</td>
-                <td class="text-align-right">10000000000</td>
-            </tr>
-            <tr>
-                <td class="raking-align">3.</td>
-                <td class="pais-align">Russia</td>
-                <td class="text-align-right">1300000000</td>
-            </tr>
-            <tr>
-                <td class="raking-align">4.</td>
-                <td class="pais-align" id="brasil-BR">Brasil</td>
-                <td class="text-align-right">200000000</td>
-            </tr>
-        </tbody>
-    </table>
+    <section>
+        <table>
+            <thead>
+                <th>Raking</th>
+                <th>País</th>
+                <th>População</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="raking-align">1.</td>
+                    <td class="pais-align">China</td>
+                    <td class="text-align-right">100000000000</td>
+                </tr>
+                <tr>
+                    <td class="raking-align">2.</td>
+                    <td class="pais-align">India</td>
+                    <td class="text-align-right">10000000000</td>
+                </tr>
+                <tr>
+                    <td class="raking-align">3.</td>
+                    <td class="pais-align">Russia</td>
+                    <td class="text-align-right">1300000000</td>
+                </tr>
+                <tr>
+                    <td class="raking-align">4.</td>
+                    <td class="pais-align" id="brasil-BR">Brasil</td>
+                    <td class="text-align-right">200000000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     
 </body>
 </html>
