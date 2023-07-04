@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .header {
   border: 1px solid red;
   width: 80%;
