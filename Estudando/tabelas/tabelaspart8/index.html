@@ -5,45 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yabelas 8</title>
     <style>
-        body{
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Regular';
+    src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(fonts/Chakra_Petch/ChakraPetch-Medium.ttf) format(truetype);
+}
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        section.container{
             position: relative;
             background-color: rgba(0, 0, 0, 0.548);
+            height: 100vh;
         }
 
         table{
-            width: 300px;
+            width: 500px;
+            height: 250px;
             border-collapse: collapse;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             }
+
+        td, th{
+            border: 1px solid rgba(150, 150, 150, 0.664);
+            padding: 7px;
+            text-align: center;
+        }
+
+        thead, th{
+            font-family: 'Regular';
+            font-size: 1.3em;
+            padding: 9px;
+            font-weight: lighter;
+        }
+
+        abbr{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
 
 
-    <table>
-        <thead>
-            <th>Front-End</th>
-            <th>Back-End</th>
-        </thead>
+    <section class="container">
+        <table>
+            <thead>
+                <th class="th_class">Front-End</th>
+                <th class="th_class">Back-End</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><abbr title="HTML (Hyper Text Markup Language)"><img src="icons/html-5.png" alt="Imagem de HTML"></img></abbr></td>
+                    <td><abbr title="PHP"><img src="icons/php.png" alt="Imagem de PHP"></img></abbr></td>
+                </tr>
+                <tr>
+                    <td><abbr title="CSS (Cascading stylesheet)"><img src="icons/css-3.png" alt="Imagem de CSS"></img></abbr></td>
+                    <td><abbr title="SQL"><a href="" download="icons/servidor-sql.png"><img src="icons/servidor-sql.png" alt="Imagem de SQL"></img></a></abbr></td>
+                </tr>
+                <tr>
+                    <td><abbr title="JS (Java Script)"><img src="icons/js.png" alt="Imagem de Java Script"></img></abbr></td>
+                    <td><abbr title="JAVA"><img src="icons/java.png" alt="Imagem de JAVA"></img></abbr></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-        <tbody>
-            <tr>
-                <td>HTML</td>
-                <td>PHP</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>RUBY</td>
-            </tr>
-            <tr>
-                <td>Java Script</td>
-                <td>JAVA</td>
-            </tr>
-        </tbody>
-    </table>
     
 </body>
 </html>
