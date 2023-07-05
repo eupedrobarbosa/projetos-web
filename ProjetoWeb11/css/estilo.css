@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Regular.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Italic';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Italic.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Light';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Light.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Medium.ttf') format(truetype);
+}
+
+:root{
+    --cor1: #1C082B;
+    --cor2: #1c082b9c;
+    --cor3: #C31F37;
+    --cor4: #F70929;
+    --cor5: #FECFA1;
+}
+
+header{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 5px var(--cor2);
+}
+
+header h1{
+    padding-top: 70px;
+    font-family: 'Medium';
+    font-size: 5em;
+}
+/*
+header:hover{
+    background-image: url(../images/forest-img/forest-700px.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--cor5);
+    transition-duration: 1s;
+    background-attachment: fixed;
+}*/
+
+header p{
+    padding-bottom: 70px;
+    color: var(--cor5);
+    font-family: 'Regular';
+
+}
+
+header a{
+    color: #C31F37;
+    text-decoration: none;
+    font-family: 'Regular';
+}
+
+header a:hover{
+    text-decoration-line: underline;
+}
+
+section.image{
+    min-height: 50vh;
+    background-image: url(../images/forest-img/forest.jpg);
+    background-attachment: fixed;
+    background-position: center left;
+}
+
+section.image:hover{
+    background-position: center center;
+    transition-duration: 1s;
+}
+
+section.normal{
+    padding: 55px;
+    background-color: var(--cor4);
+}
+
+.normal h2{
+    font-family: 'Regular';
+    color: var(--cor5);
+    font-size: 4em;
+}
+
+h3.html_h3_code_responsive_image{
+    margin-top: 60px;
+    font-family: 'Regular';
+    font-size: 3em;
+    font-variant: small-caps;
+    color: var(--cor5);
+}
+
+.code-1-html{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 2em;
+    margin-top: 10px;
+    color: var(--cor5);
+}
+
+/*SECTION .IMAGE SÓ QUE COM ID:*/
+
+section#efect-center-right:hover{
+    background-position: center right;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: #FECFA1;
+    text-align: center;
+}
+
+footer > p{
+    font-family: 'Regular';
+    padding: 10vh 0vh;
+    font-size: 1.5em;
+}
