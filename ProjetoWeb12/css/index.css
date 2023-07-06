@@ -122,4 +122,78 @@ abbr{
     font-size: 2.5em;
     max-width: 600px;
     text-align: center;
+    border-radius: 20px;
+}
+
+.footer{
+    padding: 25px;
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+}
+
+.footer > p{
+    font-family: 'Regular';
+    padding: 5vh 0px;
+    font-size: 1.5em;
+}
+
+/*PAGE TABELA CONFIG.*/
+
+section.tabela-section{
+    margin-top: 40px;
+    overflow-x: auto;
+}
+
+table.tabela{
+    width: 1400px;
+    border-collapse: collapse;
+    position: absolute;
+    position: relative;
+    font-size: 1.3em;
+    font-family: 'Light';
+    font-weight: lighter;
+    text-align: center;
+    margin: auto;
+}
+
+caption{
+    background-color: #2265A8;
+    color: white;
+    padding: 20px;
+    font-family: 'Regular';
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.5em;
+}
+
+td, th{
+    border: 1px solid var(--cor2_1);
+    padding:10px;
+}
+
+td{
+    font-family: 'Regular';
+    font-weight: bold;
+}
+
+.name_estudante{
+    text-align: left;
+}
+
+section > table > tbody > tr:nth-child(odd){
+    background-color: #3d99f541;
+}
+
+
+tfoot{
+    background-color: var(--cor3);
+}
+
+section > table > tfoot > tr > th {
+    padding: 20px;
+}
+
+.container{
+    overflow-x: auto;
 }
