@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA FINAL</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 30px;
+        }
+
+        .table-2{
+            border-collapse: collapse;
+            width: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .table-3{
+            margin-top: 50px;
+            width: 900px;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        .table-3 > thead{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.4em;
+        }
+
+        .table-3 > tbody > tr > td{
+            font-size: 1.3em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .table-3 > tbody > th{
+            width: 100px;
+        }
+
+        .homens{
+            background-color: rgba(52, 152, 209, 0.589);
+        }
+
+        .Mulheres{
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <table class="table-2">
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+
+        <tr>
+            <td rowspan="5">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+
+        </tr>
+        <tr>
+            <td colspan="4">M</td>
+        </tr>
+    </table>
+
+    <table class="table-3">
+        <thead>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th colspan="4">Filmes</th>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th rowspan="3" class="Mulheres" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" class="homens" scope="rowgroup">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocaveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lorenço</td>
+                <td>Wall-E</td>
+                <td>Old-Boy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Stori</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
