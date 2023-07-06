@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Regular.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Italic';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Italic.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Light';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Light.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Medium.ttf') format(truetype);
+}
+
+:root{
+    --cor1: #0C43F5;
+    --cor1_1: #0c42f5ad;
+    --cor2:#4988F4;
+    --cor2_1:#4988f48f;
+    --cor3:#2265A8;
+    --cor3_1:#2265a88e;
+    --cor4:#3D99F5;
+    --cor4_1:#3d99f588;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+nav.navbar{
+    text-align: right;
+    padding: 25px;
+}
+
+.navbar > a{
+    padding: 5px;
+    font-family: 'Regular';
+    text-decoration: none;
+    font-size: 1.4em;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #0C43F5;
+}
+
+.navbar > a:hover{
+    color: var(--cor2);
+}
+
+section.section-image{
+    background-image: url('../imagens/rose-g6091221e7_1920.jpg');
+    margin-top: 5px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+section.section-image:hover{
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+.section-image > h1{
+    color: white;
+    font-family: 'Medium';
+    font-size: 5em;
+    padding: 80px;
+}
+
+.section-image > h1 > a{
+    text-decoration: none;
+    color:white;
+}
+
+section.normal_{
+    margin-top: 40px;
+    padding: 25px;
+}
+
+section.normal_ > h2{
+    color:var(--cor1);
+    font-family: 'Regular';
+    font-size: 4em;
+    font-variant: small-caps;
+}
+
+section.normal_ > p{
+    padding: 10px;
+    text-align: justify;
+    font-variant: small-caps;
+    font-family: 'Regular';
+    font-size: 2em;
+    color: var(--cor3);
+}
+
+/*MARK e ABBR PARA TODOS*/
+
+mark{
+    background-color: var(--cor2_1);
+    padding: 4px;
+}
+ 
+abbr{
+    text-decoration: none;
+}
+
+.container-section-image-id{
+    padding: 50px;
+}
+
+#section-image-id > .container-section-image-id > p{
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    font-family: 'Light';
+    font-size: 2.5em;
+    max-width: 600px;
+    text-align: center;
+}
